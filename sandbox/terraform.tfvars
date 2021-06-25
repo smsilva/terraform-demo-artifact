@@ -1,10 +1,10 @@
 stack = {
-  version = "1.0.1"
+  version = "1.0.0"
 }
 
 resource_tags = {
   project     = "demo-project",
-  environment = "infrasandbox",
+  environment = "sandbox",
   owner       = "me@example.com"
 }
 
