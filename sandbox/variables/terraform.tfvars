@@ -1,3 +1,7 @@
+stack = {
+  version = "1.0.0"
+}
+
 resource_tags = {
   project     = "demo-project",
   environment = "sandbox",
@@ -6,4 +10,4 @@ resource_tags = {
 
 ec2_instance_type = "t2.nano"
 
-instance_count = 3
+instance_count = 1
