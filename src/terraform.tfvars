@@ -1,11 +1,11 @@
 project = {
   name        = "demo",
-  environment = "prod",
+  environment = "sandbox",
   version     = "1.1.0"
   owner       = "smsilva@gmail.com"
 }
 
 instances = {
-  count = 2
+  count = 1
   type  = "t2.nano"
 }
