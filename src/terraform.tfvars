@@ -1,6 +1,6 @@
 project = {
   name        = "demo",
-  environment = "stage",
+  environment = "prod",
   version     = "1.1.0"
   owner       = "smsilva@gmail.com"
 }
