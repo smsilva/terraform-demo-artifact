@@ -8,4 +8,4 @@ instances = {
   type  = "t2.nano"
 }
 
-aws_region = "us-east-1	"
+aws_region = "us-east-1"
