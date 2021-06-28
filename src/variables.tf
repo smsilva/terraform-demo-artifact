@@ -2,10 +2,17 @@ variable "project" {
   description = "Project Properties"
   type        = map(string)
   default = {
-    name        = "my-project",
-    environment = "my-environment",
-    version     = "v0.0.0"
-    owner       = "me@example.com"
+    name    = "demo",
+    owner   = "smsilva@gmail.com"
+  }
+}
+
+variable "environment" {
+  description = "Environment Properties"
+  type        = map(string)
+  default = {
+    name    = "local",
+    version = "latest"
   }
 }
 
@@ -25,8 +32,8 @@ variable "instances" {
   description = "Instance Properties"
   type        = map(string)
   default = {
-    count        = 1,
-    type = "t2.nano"
+    count = 1,
+    type  = "t2.nano"
   }
 }
 
