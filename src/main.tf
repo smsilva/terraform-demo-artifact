@@ -113,3 +113,7 @@ module "ec2_instances" {
 
   tags = local.tags
 }
+
+module "null-resource-countries" {
+  source = "./modules/null-resource"
+}
