@@ -4,8 +4,8 @@ environment = {
 }
 
 instances = {
-  count = 1
-  type  = "t2.nano"
+  count = 5
+  type  = "t3.nano"
 }
 
 aws_region = "us-east-1"
