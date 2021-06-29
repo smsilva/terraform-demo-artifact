@@ -1,6 +1,6 @@
 environment = {
   name    = "sandbox",
-  version = "1.2.10"
+  version = "1.2.11"
 }
 
 instances = {
@@ -10,8 +10,8 @@ instances = {
 
 aws_region = "us-east-1"
 
-# countries = [
-#   "Bolivia",
-#   "Equador",
-#   "Venezuela",
-# ]
+countries = [
+  "Bolivia",
+  "Equador",
+  "Venezuela",
+]
