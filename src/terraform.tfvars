@@ -9,3 +9,9 @@ instances = {
 }
 
 aws_region = "us-east-1"
+
+# countries = [
+#   "Bolivia",
+#   "Equador",
+#   "Venezuela",
+# ]
