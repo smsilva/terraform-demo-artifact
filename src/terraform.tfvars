@@ -4,7 +4,7 @@ environment = {
 }
 
 instances = {
-  count = 2
+  count = 1
   type  = "t2.nano"
 }
 
