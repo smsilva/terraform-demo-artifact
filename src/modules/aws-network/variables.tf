@@ -1,28 +1,13 @@
-variable "project" {
-  description = "Project Properties"
-  type        = map(string)
-  default = {
-    name  = "demo",
-    owner = "smsilva@gmail.com"
-  }
+variable "tags" {
+  default = {}
 }
 
-variable "environment" {
-  description = "Environment Properties"
-  type        = map(string)
-  default = {
-    name    = "local"
-    version = "latest"
-    region  = "us-east-1"
-  }
+variable "region" {
+  default = "us-west-1"
 }
 
-variable "instances" {
-  type = map(string)
-  default = {
-    count = "3"
-    type  = "t2.nano"
-  }
+variable "prefix" {
+  default = "my-prefix"
 }
 
 variable "cidr" {
@@ -34,7 +19,7 @@ variable "vpn_gateway" {
 }
 
 variable "private_subnet_count" {
-  default = 1
+  default = 2
 }
 
 variable "private_subnet_cidr_blocks" {
@@ -51,7 +36,7 @@ variable "private_subnet_cidr_blocks" {
 }
 
 variable "public_subnet_count" {
-  default = 1
+  default = 2
 }
 
 variable "public_subnet_cidr_blocks" {
