@@ -6,10 +6,6 @@ output "project" {
   }
 }
 
-output "instances" {
-  value = var.instances
-}
-
 output "environment" {
   description = "Environment Information"
   value = {

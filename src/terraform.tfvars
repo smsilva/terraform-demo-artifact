@@ -1,10 +1,10 @@
 environment = {
-  name    = "stage",
-  version = "2.0.4"
-  region  = "us-east-1"
+  name    = "dunha"
+  version = "2.0.0"
+  region  = "us-east-2"
 }
 
 instances = {
-  count = 3
-  type  = "t2.nano"
+  count = 10
+  type  = "t3.nano"
 }
